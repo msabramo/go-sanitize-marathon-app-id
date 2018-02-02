@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/msabramo/go-sanitize-marathon-app-id.svg?branch=master)](https://travis-ci.org/msabramo/go-sanitize-marathon-app-id)
+[![Coverage Status](https://coveralls.io/repos/github/msabramo/go-sanitize-marathon-app-id/badge.svg?branch=travis-ci)](https://coveralls.io/github/msabramo/go-sanitize-marathon-app-id?branch=travis-ci)
+
 # go-sanitize-marathon-app-id
 
 > :put_litter_in_its_place: Sanitize marathon app ids. In Golang.
