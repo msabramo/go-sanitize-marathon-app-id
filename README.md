@@ -27,3 +27,15 @@ import (
 
 appId := sanitizeMarathon.Sanitize("FOO_λ_BAR_1.0.0") // → foo-bar-1-0-0
 ```
+
+### CLI
+
+```
+$ go get -u -v github.com/msabramo/go-sanitize-marathon-app-id/cmd/...
+
+$ sanitizemarathonappid a.b.c.d.e a_b_c_d aBcDeF foo.λ___BAR
+a-b-c-d-e
+a-b-c-d
+abcdef
+foo-bar
+```
